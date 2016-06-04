@@ -1,4 +1,4 @@
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+﻿# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
 # Windows image file caches
@@ -58,3 +58,32 @@ CompressiveTracker_Original/*.txt
 # Except .h and .cpp file
 !CompressiveTracker_Original/*.h
 !CompressiveTracker_Original/*.cpp
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
